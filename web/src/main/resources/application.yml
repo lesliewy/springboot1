@@ -1,0 +1,7 @@
+# application.properties  application.yml application-default.properties 这三个默认都可以被发现.
+wy:
+  test_yml: 456
+  servers:
+        - dev.example.com
+        - another.example.com
+
