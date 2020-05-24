@@ -34,10 +34,12 @@ public class MyMvcConfig implements WebMvcConfigurer {
         registry.setOrder(Ordered.HIGHEST_PRECEDENCE);
 
         // begin: 用于spring-security
+        /*
         registry.addViewController("/home").setViewName("security/home");
         registry.addViewController("/").setViewName("security/home");
         registry.addViewController("/hello").setViewName("security/hello");
         registry.addViewController("/login").setViewName("security/login");
+        */
         // end
 
         // begin: 用于spring-security 中的ip login demo

@@ -70,18 +70,24 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
          *     4, 配置WebSecurityConfigAdapter
          *     5, 配置SpringMVC.
          */
+        // 禁用websecurity
+        /*
         http.authorizeRequests().antMatchers("/",
                                              "/home").permitAll().antMatchers("/ipLogin").permitAll().anyRequest().authenticated().and().logout().logoutSuccessUrl("/").permitAll().and().exceptionHandling().accessDeniedPage("/ipLogin").authenticationEntryPoint(loginUrlAuthenticationEntryPoint());
 
         // 添加自定义filter. 注意放置的顺序 这很关键
         http.addFilterBefore(ipAuthenticationProcessingFilter(authenticationManager()),
                              UsernamePasswordAuthenticationFilter.class);
+                             */
 
     }
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+        // 禁用websecurity
+        /*
         auth.authenticationProvider(ipAuthenticationProvider());
+        */
     }
 
     /**

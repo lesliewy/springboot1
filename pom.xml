@@ -104,6 +104,13 @@
                 <artifactId>spring-boot-starter-security</artifactId>
                 <version>${springboot-version}</version>
             </dependency>
+            <!-- springboot actuator: begin -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-actuator</artifactId>
+                <version>${springboot-version}</version>
+            </dependency>
+            <!-- springboot actuator: end -->
         </dependencies>
     </dependencyManagement>
 
