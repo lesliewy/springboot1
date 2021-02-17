@@ -111,6 +111,22 @@
                 <version>${springboot-version}</version>
             </dependency>
             <!-- springboot actuator: end -->
+
+            <!-- redis: begin -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-redis</artifactId>
+                <version>${springboot-version}</version>
+            </dependency>
+            <!-- redis: end -->
+
+            <!-- begin: mystarter -->
+            <dependency>
+                <groupId>cn.wy</groupId>
+                <artifactId>mystarter</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <!-- end -->
         </dependencies>
     </dependencyManagement>
 
