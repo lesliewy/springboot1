@@ -18,7 +18,7 @@
         <springboot-version>2.2.1.RELEASE</springboot-version>
         <spring-security-version>5.2.1.RELEASE</spring-security-version>
         <junit-version>4.12</junit-version>
-        <log4j2-version>2.10.0</log4j2-version>
+        <log4j2-version>2.13.2</log4j2-version>
         <slf4j-api-version>1.7.5</slf4j-api-version>
         <lombok-version>1.18.2</lombok-version>
     </properties>
